@@ -1,0 +1,27 @@
+Our files Format:
+
+Steps File:
+The file includes a line for every creature exist on the board file.
+Each line represent a creature steps sequence(by its directions). *
+It's directions represented by the following symbols:
+S - means the creature's direction was on stay.
+U - means the creature's direction was Up.
+R - means the creature's direction was Right.
+L - means the creature's direction was Left.
+D - means the creature's direction was Down.
+
+As for the fruit creture, on it's line we included also those symbols:
+V - means the fruit appeared on screen at this point of the sequence, 
+    right after it, will be two numbers represent the fruit position at this time -
+    the first number is for the X coordinate and the second is for Y coordinate.
+
+X - means the fruit disappeared at this point of the sequence.
+
+
+*Note that if there is no place to display the whole line on the Notepad interface,
+ it will look like a line break, but it is only the display, actually it is still part of the same line.
+
+
+result File:
+The file inscludes the point of time where pacman died
+and the point of time where pacman finished the screen, including the reason: "passed the screen" or "Game Over".
